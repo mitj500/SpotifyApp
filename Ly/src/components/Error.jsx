@@ -1,7 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-const Error = () => (
-  <div>Error</div>
-);
+function Error() {
+  return (
+    <div className="w-full flex justify-center items-center">
+      something went wrong.Please try again.
+      </div>
+  )
+}
 
-export default Error;
+export default Error
